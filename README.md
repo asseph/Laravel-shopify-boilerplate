@@ -1,172 +1,25 @@
-Contribution: 2023-04-15 15:00
-
-Contribution: 2023-04-15 15:01
-
-Contribution: 2023-04-15 15:02
-
-Contribution: 2023-04-15 15:03
-
-Contribution: 2023-04-15 15:04
-
-Contribution: 2023-04-18 15:00
-
-Contribution: 2023-04-18 15:01
-
-Contribution: 2023-04-18 15:02
-
-Contribution: 2023-04-18 15:03
-
-Contribution: 2023-04-18 15:04
-
-Contribution: 2023-04-20 15:00
-
-Contribution: 2023-04-20 15:01
-
-Contribution: 2023-04-25 15:00
-
-Contribution: 2023-04-25 15:01
-
-Contribution: 2023-04-25 15:02
-
-Contribution: 2023-04-25 15:03
-
-Contribution: 2023-04-26 15:00
-
-Contribution: 2023-04-26 15:01
-
-Contribution: 2023-04-26 15:02
-
-Contribution: 2023-04-26 15:03
-
-Contribution: 2023-04-26 15:04
-
-Contribution: 2023-04-29 15:00
-
-Contribution: 2023-04-29 15:01
-
-Contribution: 2023-04-29 15:02
-
-Contribution: 2023-04-30 15:00
-
-Contribution: 2023-04-30 15:01
-
-Contribution: 2023-04-30 15:02
-
-Contribution: 2023-05-02 15:00
-
-Contribution: 2023-05-02 15:01
-
-Contribution: 2023-05-04 15:00
-
-Contribution: 2023-05-04 15:01
-
-Contribution: 2023-05-04 15:02
-
-Contribution: 2023-05-04 15:03
-
-Contribution: 2023-05-04 15:04
-
-Contribution: 2023-05-05 15:00
-
-Contribution: 2023-05-05 15:01
-
-Contribution: 2023-05-05 15:02
-
-Contribution: 2023-05-05 15:03
-
-Contribution: 2023-05-05 15:04
-
-Contribution: 2023-05-06 15:00
-
-Contribution: 2023-05-06 15:01
-
-Contribution: 2023-05-06 15:02
-
-Contribution: 2023-05-08 15:00
-
-Contribution: 2023-05-08 15:01
-
-Contribution: 2023-05-08 15:02
-
-Contribution: 2023-05-09 15:00
-
-Contribution: 2023-05-09 15:01
-
-Contribution: 2023-05-09 15:02
-
-Contribution: 2023-05-09 15:03
-
-Contribution: 2023-05-09 15:04
-
-Contribution: 2023-05-10 15:00
-
-Contribution: 2023-05-10 15:01
-
-Contribution: 2023-05-10 15:02
-
-Contribution: 2023-05-10 15:03
-
-Contribution: 2023-05-10 15:04
-
-Contribution: 2023-05-11 15:00
-
-Contribution: 2023-05-11 15:01
-
-Contribution: 2023-05-11 15:02
-
-Contribution: 2023-05-11 15:03
-
-Contribution: 2023-05-12 15:00
-
-Contribution: 2023-05-12 15:01
-
-Contribution: 2023-05-12 15:02
-
-Contribution: 2023-05-12 15:03
-
-Contribution: 2023-05-13 15:00
-
-Contribution: 2023-05-14 15:00
-
-Contribution: 2023-05-14 15:01
-
-Contribution: 2023-05-14 15:02
-
-Contribution: 2023-05-14 15:03
-
-Contribution: 2023-05-14 15:04
-
-Contribution: 2023-05-15 15:00
-
-Contribution: 2023-05-16 15:00
-
-Contribution: 2023-05-16 15:01
-
-Contribution: 2023-05-17 15:00
-
-Contribution: 2023-05-17 15:01
-
-Contribution: 2023-05-17 15:02
-
-Contribution: 2023-05-18 15:00
-
-Contribution: 2023-05-18 15:01
-
-Contribution: 2023-05-18 15:02
-
-Contribution: 2023-05-20 15:00
-
-Contribution: 2023-05-20 15:01
-
-Contribution: 2023-05-22 15:00
-
-Contribution: 2023-05-22 15:01
-
-Contribution: 2023-05-22 15:02
-
-Contribution: 2023-05-22 15:03
-
-Contribution: 2023-05-22 15:04
-
-Contribution: 2023-05-23 15:00
-
+# laravel-shopify-boilerplate
+An example project for creating shopify apps with Laravel
+I created this repository to scratch my own itch, almost every Shopify app needs a Shopify API wrapper, a ShopifyController which
+handles App Installation process, an App Uninstall Webhook , a Script Tag on Storefront. Instead of doing all these steps every time
+why not make an App Skeleton project, or Boilerplate code which makes it easy to get started :)
+
+<strong>#Note :</strong> Files, naming conventions etc are only my preference, these are not standards, you can use your own approach and even suggest 
+me good coding approaches on how to do things.
+
+<strong>#Note : </strong> This project uses <strong>Oseintow/Laravel-Shopify</strong> API wrapper for making Shopify API calls.
+
+Steps : 
+
+1- Download this project and install dependencies using composer<br>
+2- Provide your Shopify API KEY and API SECRET in ENV ( config/shopify.php)<br>
+3- Provide your Callback Redirect URI in .env file<br>
+4- Manage your scopes in ( config/shopify.php)<br>
+5- Create your database and Run Migrations<br>
+
+<strong>#For your Information</strong>
+1- This app uses Uptown CSS which makes our App's UI same as Shopify's UI. You can replace it with Bootstrap etc.<br>
+2- This app uses jQuery. ( added as CDN)<br>
+3- Script that is added to Storefront of Shop can be found under (public/storefront.js)<br>
+<br>
+Improvements are welcome :)<br>
